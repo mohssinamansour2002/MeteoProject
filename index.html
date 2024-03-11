@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" class="search-bar" placeholder="Search" />
+        <button><i class="bx bx-search-alt-2"></i></button>
+        <span><i class='bx bx-arrow-back'></i></span>
+
+      </div>
+      <div class="weather loading">
+        <h2 class="city">city</h2>
+        <h2 class="country bx bx-map">country</h2><br>
+        <h1 class="temp bx bxs-thermometer">température</h1>
+        <div class="flex">
+          <img
+            src="https://openweathermap.org/img/wn/04n.png"
+            alt=""
+            class="icon"
+          />
+          <div class="description">description</div>
+        </div>
+        <div class="humidity bx bxs-droplet-half">humidity</div><br>
+        <div class="wind bx bx-wind">speed</div>
+      </div>
+    </div>
+  </body>
+</html>
